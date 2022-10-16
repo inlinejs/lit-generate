@@ -1,5 +1,3 @@
-/* eslint-disable operator-linebreak */
-/* eslint-disable indent */
 import { Command } from "@oclif/core";
 import * as inquirer from "inquirer";
 import { createComponent } from "../core/lit/create-component";

@@ -1,13 +1,14 @@
-lit-generate
+[DRAFT] lit-generate
 =================
 
-CLI to generate new Lit Web Components.
+CLI to generate new Lit Web Components. 
+
+> This is a work in progress and will not be stable or probably do much of anything until a `0.1.0`. release.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+[![Version](https://img.shields.io/npm/v/lit-generate.svg)](https://npmjs.org/package/lit-generate)
+[![Downloads/week](https://img.shields.io/npm/dw/lit-generate.svg)](https://npmjs.org/package/lit-generate)
+[![License](https://img.shields.io/npm/l/lit-generate.svg)](https://github.com/inlinejs/lit-generate/blob/main/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -29,17 +30,20 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`lit-generate component`](#lit-generate-component)
-* [`lit-generate help [COMMAND]`](#lit-generate-help-command)
-* [`lit-generate plugins`](#lit-generate-plugins)
-* [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin)
-* [`lit-generate plugins:inspect PLUGIN...`](#lit-generate-pluginsinspect-plugin)
-* [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin-1)
-* [`lit-generate plugins:link PLUGIN`](#lit-generate-pluginslink-plugin)
-* [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin)
-* [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-1)
-* [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-2)
-* [`lit-generate plugins update`](#lit-generate-plugins-update)
+- [[DRAFT] lit-generate](#draft-lit-generate)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`lit-generate component`](#lit-generate-component)
+  - [`lit-generate help [COMMAND]`](#lit-generate-help-command)
+  - [`lit-generate plugins`](#lit-generate-plugins)
+  - [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin)
+  - [`lit-generate plugins:inspect PLUGIN...`](#lit-generate-pluginsinspect-plugin)
+  - [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin-1)
+  - [`lit-generate plugins:link PLUGIN`](#lit-generate-pluginslink-plugin)
+  - [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin)
+  - [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-1)
+  - [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-2)
+  - [`lit-generate plugins update`](#lit-generate-plugins-update)
 
 ## `lit-generate component`
 
