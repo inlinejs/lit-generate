@@ -21,7 +21,7 @@ $ npm install -g lit-generate
 $ lit-generate COMMAND
 running command...
 $ lit-generate (--version)
-lit-generate/0.0.2 darwin-x64 node-v18.8.0
+lit-generate/0.0.3 darwin-x64 node-v18.8.0
 $ lit-generate --help [COMMAND]
 USAGE
   $ lit-generate COMMAND
@@ -30,20 +30,17 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-- [[DRAFT] lit-generate](#draft-lit-generate)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [`lit-generate component`](#lit-generate-component)
-  - [`lit-generate help [COMMAND]`](#lit-generate-help-command)
-  - [`lit-generate plugins`](#lit-generate-plugins)
-  - [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin)
-  - [`lit-generate plugins:inspect PLUGIN...`](#lit-generate-pluginsinspect-plugin)
-  - [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin-1)
-  - [`lit-generate plugins:link PLUGIN`](#lit-generate-pluginslink-plugin)
-  - [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin)
-  - [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-1)
-  - [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-2)
-  - [`lit-generate plugins update`](#lit-generate-plugins-update)
+* [`lit-generate component`](#lit-generate-component)
+* [`lit-generate help [COMMAND]`](#lit-generate-help-command)
+* [`lit-generate plugins`](#lit-generate-plugins)
+* [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin)
+* [`lit-generate plugins:inspect PLUGIN...`](#lit-generate-pluginsinspect-plugin)
+* [`lit-generate plugins:install PLUGIN...`](#lit-generate-pluginsinstall-plugin-1)
+* [`lit-generate plugins:link PLUGIN`](#lit-generate-pluginslink-plugin)
+* [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin)
+* [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-1)
+* [`lit-generate plugins:uninstall PLUGIN...`](#lit-generate-pluginsuninstall-plugin-2)
+* [`lit-generate plugins update`](#lit-generate-plugins-update)
 
 ## `lit-generate component`
 
@@ -60,7 +57,7 @@ EXAMPLES
   $ lit-generate component
 ```
 
-_See code: [dist/commands/component.ts](https://github.com/inlinejs/lit-generate/blob/v0.0.2/dist/commands/component.ts)_
+_See code: [dist/commands/component.ts](https://github.com/inlinejs/lit-generate/blob/v0.0.3/dist/commands/component.ts)_
 
 ## `lit-generate help [COMMAND]`
 
@@ -100,7 +97,7 @@ EXAMPLES
   $ lit-generate plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v2.1.2/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v2.1.4/src/commands/plugins/index.ts)_
 
 ## `lit-generate plugins:install PLUGIN...`
 
